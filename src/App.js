@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/layout/Header";
+// import Header from "./components/layout/Header";
 import { AuthProvider } from "./contexts/auth-context";
 import CategoryAddNew from "./module/category/CategoryAddNew";
 import CategoryManage from "./module/category/CategoryManage";
