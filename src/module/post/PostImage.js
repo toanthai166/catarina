@@ -26,7 +26,7 @@ const PostImage = ({ small, url, className = "", to }) => {
         className={
           small
             ? ` w-full h-[75px]  min-w-[90px] ${className}`
-            : `h-full max-h-[200px] w-full max-w-[300px] ${className}`
+            : `h-full max-h-[200px] w-full min-w-[300px] mb-10 ${className}`
         }
       >
         <img

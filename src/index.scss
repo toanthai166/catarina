@@ -182,6 +182,9 @@ input {
     display: flex;
     flex-direction: column;
   }
+  .feature-item > div img {
+    // width: 100%;
+  }
   .infor {
     font-size: 14px;
   }

@@ -32,7 +32,7 @@ const PostItem = ({ className = "", big, small, popular, data = {} }) => {
         className="flex-1"
         small={small}
       ></PostImage>
-      <div className="feature-post flex flex-col min-w-[360px]  max-h-[200px] overflow-hidden">
+      <div className="feature-post flex flex-col w-full max-w-[360px]  max-h-[200px] overflow-hidden">
         {big && <PostCategory> {data.category?.name}</PostCategory>}
         <PostTitle to={`/${data.slug}`} small={small}>
           {data.title}
